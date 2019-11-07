@@ -11,7 +11,7 @@ export default class Navi extends React.Component {
     return(
       <Nav style={mainPosition} className="justify-content-center" activeKey="/home">
       <Nav.Item>
-        <Nav.Link href="/home">Search Beats</Nav.Link>
+        <Nav.Link >Search Beats</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="link-1">Sample Beats</Nav.Link>
