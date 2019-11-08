@@ -53,9 +53,9 @@ export default class LogMeIn extends React.Component {
   return(
     <Router>
       <div>
-          <li>
-            <Link onClick={this.handleChange}  to="/LoginRedirect">Welcome Back</Link>
-          </li>
+       
+            <button><Link onClick={this.handleChange}  to="/LoginRedirect">Welcome Back</Link></button>
+       
       </div>
       <Switch>
         <Route path="/LoginRedirect">
