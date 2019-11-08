@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from '../buttons/loginbtn';
+import Signin from '../buttons/signup';
 
 
 
@@ -33,6 +34,10 @@ export default class IntroTitle extends React.Component {
 </Jumbotron>
 <div style={buttonStyle}>
 <Login/>
+</div>
+<br/>
+<div style={buttonStyle}>
+<Signin/>
 </div>
 
              </div>
