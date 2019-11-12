@@ -8,7 +8,6 @@ import Signin from '../buttons/signup';
 import './titleStyle.css';
 
 
-
 const mainPosition ={ 
   float: 'right'
 }
@@ -27,8 +26,8 @@ export default class IntroTitle extends React.Component {
              <div  >
              <Jumbotron fluid>
   <Container>
-  <h1 style={titleStyle}>Who is BMC</h1>
-  <Card body>This is some text within a card body.</Card>
+  <h1 style={titleStyle}>BMC</h1>
+  <Card body>Beat Machine Center</Card>
  
   </Container>
  
