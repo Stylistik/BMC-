@@ -3,9 +3,24 @@ import Navi from '../mainFiles/navbar';
 import IntroTitle from '../mainFiles/introTitle';
 import Drum from './dums';
 import Row from 'react-bootstrap/Row';
+import HomeSetup from './IntroSetup';
+import "./style.css";
+
+
+
+function LoggedIn(){
+    return { showResults: false };
+}
+
+function onClick(){
+    this.setState({ showResults: true });
+}
+
 
 export default class IntroPage extends React.Component {
+
     render(){
+       
         return(
             <div>
             <div className='NavArea'>
@@ -14,11 +29,22 @@ export default class IntroPage extends React.Component {
       <div className='container'>
           <IntroTitle/>
       </div>
-     <Row>
+     <Row style={{display: 'none'}} className='Hey'>
      <Drum/>
      </Row>
-      
+     
+     <div>
+     <Row >
+     <div  style={{marginTop:'47vh'}} data-key="71" class="key">
+         <a>Try It Out</a>
          </div>
+        <div style={{color:'white', marginTop:'56vh'}}> <a>Or</a></div>
+         <div style={{marginTop:'47vh'}} data-key="72" class="key">
+           <a>Welcome Back</a>
+         </div>
+     </Row>
+     </div>
+ </div>
         )
     }
 }
