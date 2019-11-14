@@ -36,7 +36,7 @@ export default class IntroPage extends React.Component {
      <div>
      <Row >
      <div  style={{marginTop:'47vh'}} data-key="71" class="key">
-         <a>Try It Out</a>
+         <button style={{backgroundColor:'transparent', color:'white', border:'none'}}>Try It Out</button>
          </div>
         <div style={{color:'white', marginTop:'56vh'}}> <a>Or</a></div>
          <div style={{marginTop:'47vh'}} data-key="72" class="key">
